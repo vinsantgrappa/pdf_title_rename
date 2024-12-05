@@ -49,7 +49,7 @@ PDF解析で判別できなかったファイルを画像比較で解析しま�
 - PDFを画像化し、テンプレート画像と一致する箇所を探索。
   
 - 探索に使用するテンプレート画像
-<img width="1440" alt="スクリーンショット 2024-12-02 22 40 41" src="https://github.com/user-attachments/assets/8d3ee1bc-6bb6-472f-81bc-9a9b83f5065d">
+![cod_1](https://github.com/user-attachments/assets/42fae965-7d75-4e24-9da1-4c22f109a0a6)
 
   
 - 一致したテンプレート画像に基づき、送信元を判別してファイル名を変更。
