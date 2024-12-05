@@ -31,6 +31,7 @@ PDFから文字情報を抽出し、内容を基に送信元を判別します�
 - 匿名で送られてきたFAX　タイトルだけみても、どこから来たFAXかがわからない
 ![画面収録 2024-12-02 22 30 40](https://github.com/user-attachments/assets/83362cc2-7b13-4624-ae2b-cf079ed458d1)
 
+---
 
 **手法:**  
 - 抽出したテキストをキーワードと照合。  
@@ -47,6 +48,7 @@ PDF解析で判別できなかったファイルを画像比較で解析しま�
 - PDF解析で判別できなかったファイル
 <img width="612" alt="スクリーンショット 2024-12-02 22 40 17" src="https://github.com/user-attachments/assets/b6e1dbb2-6b8c-4bc2-879d-2b5f50004b7e">
 
+---
 
 **手法:**  
 - PDFを画像化し、テンプレート画像と一致する箇所を探索。
@@ -54,12 +56,14 @@ PDF解析で判別できなかったファイルを画像比較で解析しま�
 - 探索に使用するテンプレート画像
 - ![cod_1](https://github.com/user-attachments/assets/42fae965-7d75-4e24-9da1-4c22f109a0a6)
 
+---
   
 - 一致したテンプレート画像に基づき、送信元を判別してファイル名を変更。
 ![画面収録 2024-12-02 22 42 02](https://github.com/user-attachments/assets/71343b61-c6e2-45a7-8c28-73bf61ff4986)
 
 ![画面収録 2024-12-02 22 43 53](https://github.com/user-attachments/assets/e2ed5876-daf5-419d-a05f-137e17c01a18)
 
+---
 
 **活用例:**  
 - 特定の会社ロゴや書式パターンが含まれるFAXの判別。
